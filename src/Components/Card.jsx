@@ -22,7 +22,7 @@ function Card() {
   return (
     <div className="w-full h-screen bg-zinc-300 flex flex-col gap-4 justify-center items-center">
       {data.map((item, index) => (
-        <div className="w-85 px-3 py-2 bg-zinc-100 rounded-md">
+        <div className="w-85 px-4 py-2 bg-zinc-100 rounded-md">
           <h3 className="font-semibold">{item.name}</h3>
           <p className="text-xs mt-2">{item.description}</p>
           <div className="flex gap-4">
